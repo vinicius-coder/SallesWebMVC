@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SallesWebMVC.Data;
+using SallesWebMVC.Services;
 
 namespace SallesWebMVC
 {
@@ -41,6 +42,7 @@ namespace SallesWebMVC
                         builder.MigrationsAssembly("SallesWebMVC")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
 
         }
 
