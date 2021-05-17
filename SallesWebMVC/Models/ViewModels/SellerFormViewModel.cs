@@ -2,7 +2,7 @@
 
 namespace SallesWebMVC.Models.ViewModels
 {
-    public class SellerViewModel
+    public class SellerFormViewModel
     {
 
         public Seller Seller { get; set; }
